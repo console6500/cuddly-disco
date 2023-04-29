@@ -24,7 +24,7 @@ jobs:
 
   integration:
     uses: 
-      console6500/cuddly-disco/.github/workflows/python-ci-workflow.yml@main
+      ${{ github.action_repository }}/.github/workflows/python-ci-workflow.yml
     permissions:
       contents: read
       checks: write
