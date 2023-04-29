@@ -26,6 +26,7 @@ jobs:
     uses: 
       console6500/cuddly-disco/.github/workflows/python-ci-workflow.yml@main
     permissions:
+      contents: read
       checks: write
     
   build:
