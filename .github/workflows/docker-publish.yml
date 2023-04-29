@@ -24,7 +24,7 @@ jobs:
 
   integration:
     uses: 
-      ${{ github.action_repository }}/.github/workflows/python-ci-workflow.yml
+      ${{ github.action_repository }}/.github/workflows/python-ci-workflow.yml@main
     permissions:
       contents: read
       checks: write
