@@ -24,7 +24,7 @@ jobs:
 
   integration:
     uses: 
-      ./python-ci-workflow.yml
+      ./.github/workflows/python-ci-workflow.yml
     permissions:
       contents: read
       checks: write
